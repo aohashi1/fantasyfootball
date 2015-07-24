@@ -16,6 +16,8 @@
   		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   		 <script src=""></script>
+  		  <script src="jquery.table-sort.js"></script>
+
 
 	</head>
 
@@ -36,7 +38,7 @@
 			            <li><a href="#">Team 3</a></li>
 			          </ul>
 			        </li>
-			        <li><a href="standings.html">Standings</a></li>
+			        <li><a href="">Standings</a></li>
 			        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Owner Bios<span class="caret"></span></a>
 			          <ul class="dropdown-menu">
 			            <li><a href="#">name 1</a></li>
@@ -55,12 +57,12 @@
 			<div class="row">
 				<div class="col-md-2"></div>
 				<div class="col-md-8">
-					<table data-toggle="table">
+					<table class="table table-bordered sort_table">
 					    <thead>
 					        <tr>
-					            <th data-sortable="true">Name</th>
-					            <th data-sortable="true">Record</th >
-					            <th data-sortable="true">League Titles</th>
+					            <th>Name</th>
+					            <th>Record</th >
+					            <th>League Titles</th>
 					        </tr>
 					    </thead>
 					    <tbody>
@@ -84,5 +86,13 @@
 				<p id="foottext">Yung fashion god aaron's website. trademark</p>
 			</div>
 		</div>
+		<script>
+$(function(){
+    // jQuery methods go here...
+    $("table.sort_table").sort_table({
+        "action" : "init"
+    });
+});
+</script>
 	</body>
 </html>
