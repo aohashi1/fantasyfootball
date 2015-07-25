@@ -28,7 +28,7 @@
 			  <div class="container-fluid">
 			    <div>
 			      <ul class="nav navbar-nav">
-			        <li><a href="fantasyfootball.php">Home</a></li>
+			        <li class="active"><a href="fantasyfootball.php">Home</a></li>
 			        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Teams<span class="caret"></span></a>
 			          <ul class="dropdown-menu">
 			            <li><a href="#">Team1</a></li>
@@ -45,7 +45,7 @@
 			          </ul>
 			        </li>
 			        <li><a href="records.php">Record Book</a></li>
-			        <li class="active"><a href="rules.php">Rules</a></li>
+			        <li><a href="rules.php">Rules</a></li>
 			        <li><a href="#">Scoreboard</a></li>
 			        <li><a href="https://www.facebook.com/groups/733247416739393/">Facebook Group</a></li>
 			      </ul>
@@ -54,28 +54,14 @@
 			</nav>
 			<div class="row">
 				<div class="col-md-2"></div>
-		        <div class="col-md-6">
-		        	<div id ="announcements">
-		        		<h1>Announcements</h1>
-		        		<hr>
-		        		<?php
-		        			readinfile("announcement.txt");
-		        		?>
-		        	</div>
-		        	<div id ="performance">
-		        		<h1>Performance<h1>
-		        			<hr>
-		        	</div>
+		        <div class="col-md-8">
+		        	<h1>Rules</h1>
+		        	<hr>
+		        	<iframe src="https://docs.google.com/document/d/1k6wNpgPE_50ROBw67zppVkdazJfp3Z9f09iStfF17mQ/pub?embedded=true" height="1000" width="1000">
+		        	</iframe>
 		        </div>
-		        <div class="col-md-4"><div>
-				<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/ESPNNFL" data-widget-id="613580899829989376">Tweets by @ESPNNFL</a>
-				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-			</div></div>
+		        <div class="col-md-2"></div>
 		    </div>
-			<div id="standings">
-			</div>
-
 			<div id="footer">
 				<p id="foottext">Yung fashion god aaron's website. trademark</p>
 			</div>

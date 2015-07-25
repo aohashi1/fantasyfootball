@@ -49,7 +49,7 @@
 			        <li class="active"><a href="records.php">Record Book</a></li>
 			        <li><a href="#">Rules</a></li>
 			        <li><a href="#">Scoreboard</a></li>
-			        <li><a href="#">Facebook Group</a></li>
+			        <li><a href="https://www.facebook.com/groups/733247416739393/">Facebook Group</a></li>
 			      </ul>
 			    </div>
 			  </div>
@@ -59,21 +59,160 @@
 				<div class="col-md-8">
 					<table class="table table-bordered sort_table">
 					    <thead>
+					    	<!-- maybe rewrite in js. use php include function -->
 					        <tr>
-					            <th>Name</th>
-					            <th>Record</th >
-					            <th>League Titles</th>
+					            <th>Owner</th>
+					            <th>Wins</th >
+					            <th>Losses</th>
+					            <th>Win %</th>
+					            <th>Division Titles</th>
+					            <th>Championships</th>
+					            <th>Toilet Bowls</th>
 					        </tr>
 					    </thead>
 					    <tbody>
 					    	<tr>
 					    		<td>Aaron</td>
-					    		<td>10-3</td>
+					    		<td>7</td>
+					    		<td>6</td>
+					    		<td>0.538</td>
+					    		<td>1</td>
+					    		<td>0</td>
 					    		<td>0</td>
 					    	</tr>	
 					    	<tr>
+					    		<td>Karan</td>
+					    		<td>35</td>
+					    		<td>17</td>
+					    		<td>0.673</td>
+					    		<td>2</td>
+					    		<td>1</td>
+					    		<td>0</td>
+					    	</tr>
+					    	<tr>
+					    		<td>Kendall</td>
+					    		<td>25</td>
+					    		<td>27</td>
+					    		<td>0.481</td>
+					    		<td>0</td>
+					    		<td>0</td>
+					    		<td>1</td>
+					    	</tr>
+					    	<tr>
+					    		<td>Shaun</td>
+					    		<td>20</td>
+					    		<td>32</td>
+					    		<td>0.385</td>
+					    		<td>0</td>
+					    		<td>0</td>
+					    		<td>0</td>
+					    	</tr>
+					    	<tr>
+					    		<td>Matt</td>
+					    		<td>19</td>
+					    		<td>33</td>
+					    		<td>0.365</td>
+					    		<td>1</td>
+					    		<td>0</td>
+					    		<td>0</td>
+					    	</tr>
+					    	<tr>
+					    		<td>Tracy</td>
+					    		<td>26</td>
+					    		<td>13</td>
+					    		<td>0.667</td>
+					    		<td>1</td>
+					    		<td>2</td>
+					    		<td>0</td>
+					    	</tr>
+					    	<tr>
+					    		<td>Simon</td>
+					    		<td>3</td>
+					    		<td>10</td>
+					    		<td>0.231</td>
+					    		<td>0</td>
+					    		<td>0</td>
+					    		<td>0</td>
+					    	</tr>
+					    	<tr>
+					    		<td>David</td>
+					    		<td>31</td>
+					    		<td>21</td>
+					    		<td>0.596</td>
+					    		<td>1</td>
+					    		<td>0</td>
+					    		<td>0</td>
+					    	</tr>
+					    	<tr>
+					    		<td>Treyvin</td>
+					    		<td>29</td>
+					    		<td>23</td>
+					    		<td>0.558</td>
+					    		<td>1</td>
+					    		<td>0</td>
+					    		<td>0</td>
+					    	</tr>
+					    	<tr>
+					    		<td>AJ</td>
+					    		<td>13</td>
+					    		<td>13</td>
+					    		<td>0.5</td>
+					    		<td>0</td>
+					    		<td>0</td>
+					    		<td>0</td>
+					    	</tr>
+					    	<tr>
+					    		<td>Peter</td>
+					    		<td>8</td>
+					    		<td>5</td>
+					    		<td>0.615</td>
+					    		<td>1</td>
+					    		<td>0</td>
+					    		<td>0</td>
+					    	</tr>
+					    	<tr>
+					    		<td>Anthony</td>
+					    		<td>20</td>
+					    		<td>19</td>
+					    		<td>0.513</td>
+					    		<td>1</td>
+					    		<td>0</td>
+					    		<td>0</td>
+					    	</tr>
+					    	<tr>
 					    		<td>Rohan</td>
-					    		<td>0-47</td>
+					    		<td>22</td>
+					    		<td>30</td>
+					    		<td>0.423</td>
+					    		<td>0</td>
+					    		<td>0</td>
+					    		<td>0</td>
+					    	</tr>
+					    	<tr>
+					    		<td>John</td>
+					    		<td>29</td>
+					    		<td>23</td>
+					    		<td>0.558</td>
+					    		<td>0</td>
+					    		<td>0</td>
+					    		<td>0</td>
+					    	</tr>
+					    	<tr>
+					    		<td>Nick</td>
+					    		<td>7</td>
+					    		<td>6</td>
+					    		<td>0.538</td>
+					    		<td>0</td>
+					    		<td>0</td>
+					    		<td>0</td>
+					    	</tr>
+					    	<tr>
+					    		<td>Calvin</td>
+					    		<td>6</td>
+					    		<td>7</td>
+					    		<td>0.462</td>
+					    		<td>0</td>
+					    		<td>0</td>
 					    		<td>0</td>
 					    	</tr>
 					    </tbody>
